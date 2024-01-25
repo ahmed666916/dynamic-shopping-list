@@ -5,8 +5,8 @@ const input = document.querySelector('#item');
 const btn = document.querySelector('button');
 
 
-btn.addEventListener("click", (input) => {
-    let input_value = input;
-    input = "";
+btn.addEventListener("click", () => {
+    let input_value = input.value;
+    input.value = "";
 
 })
