@@ -20,10 +20,12 @@ btn.addEventListener("click", () => {
     button.textContent = "Delete";
     list_item.appendChild(button);
 
-    
+
     button.addEventListener("click", () => {
         list.removeChild(list_item);
     })
+
+    input.focus();
 
 
 })
